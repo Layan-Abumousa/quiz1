@@ -41,6 +41,8 @@ class _MyAppState extends State<MyApp> {
           context: context,
           title: "Finished",
           desc: "You had $total",
+       // image : Image.network(src)
+
         ).show();
         q.reset();
         total = 0;
